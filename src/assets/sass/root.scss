@@ -8,13 +8,22 @@
 @media only screen and (min-width: 0em) {
 	// Website colors
 	:root {
-		--primary: #ffba19;
+		/*--primary: #ffba19;
 		--primaryLight: #ffd675;
 		--secondary: #001f3f;
 		--secondaryLight: #001f3f;
 		--headerColor: #1a1a1a;
 		--bodyTextColor: #4e4b66;
-		--bodyTextColorWhite: #fafbfc;
+		--bodyTextColorWhite: #fafbfc;*/
+
+		--primary: #E19EA8;
+		--primaryLight: #E19EA8;
+		--secondary: #8D88B0;
+		--secondaryLight: #8D88B0;
+		--headerColors: #C57DA5;
+		--headerColor: #C85786;
+		--bodyTextColor: #353535;
+		--bodyTextColorWhite: #F1F4F1;
 
 		/* 13px - 16px */
 		--topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
@@ -71,12 +80,12 @@
 		background-color: var(--primary);
 
 		// Transition Properties
-		color: #000;
+		color: #fff;
 		transition: color 0.3s;
 		transition-delay: 0.1s;
 
 		&:hover {
-			color: #fff;
+			color: #F3F8FA;
 			&:before {
 				width: 100%;
 			}
@@ -91,7 +100,7 @@
 			top: 0;
 			left: 0;
 			z-index: -1;
-			background-color: #000;
+			background-color: #C85786;
 
 			//Transition properties
 			width: 0;
@@ -809,7 +818,7 @@
 			line-height: 1.5em;
 			text-decoration: none;
 			margin: 0;
-			color: var(--bodyTextColor);
+			color: var(--secondary);
 			display: block;
 			position: relative;
 			&:hover {
