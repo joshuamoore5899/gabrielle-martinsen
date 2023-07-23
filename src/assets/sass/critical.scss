@@ -289,7 +289,15 @@
 				line-height: 27/20em;
 				font-weight: 700;
 				color: #1a1a1a;
-				margin-bottom: 13/20em;
+				margin-bottom: 0.2em;
+			}
+			h4 {
+				text-align: center;
+				font-size: calc(15 / 16 * 1em);
+				line-height: 27/20em;
+				font-weight: 300;
+				color: #1a1a1a;
+				margin-bottom: 0.5em;
 			}
 			p {
 				text-align: center;
@@ -306,8 +314,11 @@
 	.services {
 		font-size: min(1.8vw, 1em);
 		display: flex;
-		justify-content: space-between;
+		justify-content: space-around;
 		align-items: flex-start;
+		flex-wrap: wrap;
+		row-gap: 3em;
+		column-gap: 1em;
 		width: 98%;
 
 		.card {
@@ -324,6 +335,7 @@
 
 		.card {
 			max-width: calc(357 / 16 * 1em);
+			min-width: 28%;
 		}
 	}
 }
@@ -331,7 +343,7 @@
 /* Dark mode */
 @media only screen and (min-width: 0em) {
 	body.dark-mode {
-		#services {
+		#services, #services2 {
 			background: var(--medium);
 
 			picture {

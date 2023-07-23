@@ -5,10 +5,7 @@
 <footer id="footer">
     <div class="container">
         <div class="left-section">
-            <a class="logo" href="/"><img loading="lazy" decoding="async" src="/assets/svgs/logo-white.svg" alt="logo" width="264" height="78"></a>
-            <p>
-                Extra content if you need it, if not you can delete this whole p tag. I usually do.
-            </p>
+            <a class="logo" href="/"><img loading="lazy" decoding="async" src="/assets/svgs/logo1.svg" alt="logo" width="264" height="78"></a>
         </div>
         <div class="right-section">
             <div class="lists">
@@ -32,7 +29,7 @@
                         <a href="/contact">Contact</a>
                     </li>
                 </ul>
-                <ul>
+                <!--<ul>
                     <li>
                         <h2>Services</h2>
                     </li>
@@ -40,15 +37,15 @@
                     <li>Service2</li>
                     <li>Service4</li>
                     <li>Service5</li>
-                </ul>
+                </ul> -->
                 <ul>
                     <li>
                         <h2>Contact</h2>
                     </li>
                     <li>
-                        <a href="/contact">
+                        <a target="_blank" rel="noopener noreferrer" href="{{client.address.mapLink}}">
                             {{client.address.lineOne}}<br>
-                            {{client.address.lineTwo}}<br>
+                            <!-- {{client.address.lineTwo}}<br> -->
                             {{client.address.city}}
                             {{client.address.state}}
                             {{client.address.zip}}

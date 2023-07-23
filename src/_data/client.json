@@ -1,15 +1,15 @@
 {
-	"name": "Code Stitch Web Designs",
-	"email": "help@codestitch.app",
-	"phoneForTel": "555-779-4407",
-	"phoneFormatted": "(555) 779-4407",
+	"name": "Gabrielle Glitz Nails",
+	"email": "gabrielle.hope.m@gmail.com",
+	"phoneForTel": "385-450-9021",
+	"phoneFormatted": "+1 (385)-450-9021",
 	"address": {
-		"lineOne": "First Address Line",
+		"lineOne": "1070 S Orem Blvd, 11",
 		"lineTwo": "Second Address Line",
-		"city": "Denver",
-		"state": "CO",
-		"zip": "80206",
-		"mapLink": "https://goo.gl/maps/UAQn4vuGDiwv7DV39"
+		"city": "Orem",
+		"state": "UT",
+		"zip": "84058",
+		"mapLink": "https://goo.gl/maps/HLi1QAuNy7AhPJnS6"
 	},
 	"domain": "www.codestitch.app"
 }
